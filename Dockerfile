@@ -11,7 +11,7 @@ RUN python -m pip install wheel Pyrogram TgCrypto
 RUN python -m pip install pytgcalls ffmpeg-python psutil
 RUN python -m pip install tgintegration youtube-dl youtube_search requests
 
-RUN wget -q https://github.com/The-HellBot/VcBot/archive/hellbot.tar.gz && tar xf hellbot.tar.gz && rm hellbot.tar.gz
+RUN wget -q https://github.com/xdipesh/KristinaRadioBot/archive/xdipesh.tar.gz && tar xf xdipesh.tar.gz && rm xdipesh.tar.gz
 
-WORKDIR /VcBot-hellbot
+WORKDIR /KristinaRadioBot-xdipesh
 CMD python3 main.py
